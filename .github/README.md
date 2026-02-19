@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-medical-imaging`](https://www.npmjs.com/package/@aws-sdk/client-medical-imaging/v/3.391.0).
+[`@aws-sdk/client-medical-imaging`](https://www.npmjs.com/package/@aws-sdk/client-medical-imaging/v/3.395.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.391.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.395.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-43CzVki6SGO1ZT6wa8lSId3Tllo4tWvnj1IQWZgKexRj1s/w7jHWwUmvhsM6x4SS
+sha384-CiTn9/Y8tyBkMC/j1DIV33yoXE+91z/Z9NU1iKHol151Kg/fzTItxDQIzK/MpdGt
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-medical-imaging": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.391.0/index.min.mjs"
+            "@aws-sdk/client-medical-imaging": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.395.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.391.0/index.min.mjs": "sha384-43CzVki6SGO1ZT6wa8lSId3Tllo4tWvnj1IQWZgKexRj1s/w7jHWwUmvhsM6x4SS"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.395.0/index.min.mjs": "sha384-CiTn9/Y8tyBkMC/j1DIV33yoXE+91z/Z9NU1iKHol151Kg/fzTItxDQIzK/MpdGt"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-medical-imaging": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.391.0/index.min.mjs"
+                        "@aws-sdk/client-medical-imaging": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.395.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.391.0/index.min.mjs": "sha384-43CzVki6SGO1ZT6wa8lSId3Tllo4tWvnj1IQWZgKexRj1s/w7jHWwUmvhsM6x4SS"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medical-imaging@3.395.0/index.min.mjs": "sha384-CiTn9/Y8tyBkMC/j1DIV33yoXE+91z/Z9NU1iKHol151Kg/fzTItxDQIzK/MpdGt"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.391.0`)
+* Always pin to a specific version (`@3.395.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-medical-imaging/blob/refs/tags/3.391.0/LICENSE
+https://github.com/cloud-sdk-builds/client-medical-imaging/blob/refs/tags/3.395.0/LICENSE
 ```
 
 ---
